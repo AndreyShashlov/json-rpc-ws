@@ -2,7 +2,7 @@
 var Client = require('./lib/client');
 var Server = require('./lib/server');
 var Errors = require('./lib/errors');
-var logger = require('debug')('json-rpc-ws');
+var logger = function () {};
 
 /**
  * json-rpc-ws: a node.js json-rpc websocket client

@@ -2,7 +2,7 @@
 
 var BrowserClient = require('./lib/browser');
 var Errors = require('./lib/errors');
-var logger = require('debug')('json-rpc-ws');
+var logger = function () {};
 
 var JsonRpcWs = {
   Client: BrowserClient,
